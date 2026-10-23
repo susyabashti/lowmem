@@ -1,0 +1,16 @@
+== python: 100 memories ==
+   store      0.1 MB | wake part1     20.0 ms (cold     20.0) | full     20.0 ms
+   note     20.0 ms | recall hit     20.0 miss     20.0 | zoom nav    140.0 ms (7 levels)
+== python: 1000 memories ==
+   store      0.6 MB | wake part1     20.0 ms (cold     20.0) | full     40.0 ms
+   note     20.0 ms | recall hit     20.0 miss     20.0 | zoom nav    200.0 ms (10 levels)
+== python: 10000 memories ==
+   store      6.1 MB | wake part1     20.0 ms (cold     20.0) | full     40.0 ms
+   note     20.0 ms | recall hit     30.0 miss     30.0 | zoom nav    280.0 ms (14 levels)
+== python: 100000 memories ==
+   store     60.8 MB | wake part1     20.0 ms (cold     20.0) | full     40.0 ms
+   note     20.0 ms | recall hit    160.0 miss    150.0 | zoom nav    340.0 ms (17 levels)
+== python: 1000000 memories ==
+   store    608.0 MB | wake part1     20.0 ms (cold     20.0) | full     40.0 ms
+   note     20.0 ms | recall hit   1330.0 miss   1260.0 | zoom nav    400.0 ms (20 levels)
+wrote test/bench/python.json

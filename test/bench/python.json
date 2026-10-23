@@ -1,0 +1,260 @@
+{
+ "tool": "python",
+ "sizes": [
+  100,
+  1000,
+  10000,
+  100000,
+  1000000
+ ],
+ "results": [
+  {
+   "size": 100,
+   "reps": 5,
+   "import_s": 0.03,
+   "note_s": 0.02,
+   "note_plus_nap_s": 0.04,
+   "settle": {
+    "method": "cli",
+    "naps": 96,
+    "s": 5.369355875067413
+   },
+   "store_bytes": {
+    "total": 60256,
+    "files": {
+     ".lock": 0,
+     "LOG.txt": 32320,
+     "TREE/16": 1728,
+     "TREE/2": 14400,
+     "TREE/32": 864,
+     "TREE/4": 7200,
+     "TREE/64": 288,
+     "TREE/8": 3456
+    }
+   },
+   "wake": {
+    "part1_ms": 20.0,
+    "part1_cold_ms": 20.0,
+    "peak_rss_kb": 18240,
+    "parts": 1,
+    "full_ms": 20.0
+   },
+   "recall_hit_ms": 20.0,
+   "recall_hit_out": "1 match.",
+   "recall_miss_ms": 20.0,
+   "recall_miss_rss_kb": 17952,
+   "zoom_nav": {
+    "levels": 7,
+    "total_ms": 140.0,
+    "per_level_ms": 20.0,
+    "target": 33
+   },
+   "startup_config_ms": 20.0
+  },
+  {
+   "size": 1000,
+   "reps": 5,
+   "import_s": 0.02,
+   "note_s": 0.02,
+   "note_plus_nap_s": 0.04,
+   "settle": {
+    "method": "cli",
+    "naps": 993,
+    "s": 55.50332558399532
+   },
+   "store_bytes": {
+    "total": 606592,
+    "files": {
+     ".lock": 0,
+     "LOG.txt": 320320,
+     "TREE/128": 2016,
+     "TREE/16": 17856,
+     "TREE/2": 144000,
+     "TREE/256": 864,
+     "TREE/32": 8928,
+     "TREE/4": 72000,
+     "TREE/512": 288,
+     "TREE/64": 4320,
+     "TREE/8": 36000
+    }
+   },
+   "wake": {
+    "part1_ms": 20.0,
+    "part1_cold_ms": 20.0,
+    "peak_rss_kb": 18224,
+    "parts": 2,
+    "full_ms": 40.0
+   },
+   "recall_hit_ms": 20.0,
+   "recall_hit_out": "1 match.",
+   "recall_miss_ms": 20.0,
+   "recall_miss_rss_kb": 18384,
+   "zoom_nav": {
+    "levels": 10,
+    "total_ms": 200.0,
+    "per_level_ms": 20.0,
+    "target": 333
+   },
+   "startup_config_ms": 20.0
+  },
+  {
+   "size": 10000,
+   "reps": 5,
+   "import_s": 0.05,
+   "note_s": 0.02,
+   "note_plus_nap_s": 0.04,
+   "settle": {
+    "method": "prebuilt",
+    "naps": 0,
+    "s": 0.029457584023475647
+   },
+   "store_bytes": {
+    "total": 6078880,
+    "files": {
+     ".lock": 0,
+     "LOG.txt": 3200320,
+     "TREE/1024": 2592,
+     "TREE/128": 22464,
+     "TREE/16": 180000,
+     "TREE/2": 1440000,
+     "TREE/2048": 1152,
+     "TREE/256": 11232,
+     "TREE/32": 89856,
+     "TREE/4": 720000,
+     "TREE/4096": 576,
+     "TREE/512": 5472,
+     "TREE/64": 44928,
+     "TREE/8": 360000,
+     "TREE/8192": 288
+    }
+   },
+   "wake": {
+    "part1_ms": 20.0,
+    "part1_cold_ms": 20.0,
+    "peak_rss_kb": 18240,
+    "parts": 2,
+    "full_ms": 40.0
+   },
+   "recall_hit_ms": 30.0,
+   "recall_hit_out": "1 match.",
+   "recall_miss_ms": 30.0,
+   "recall_miss_rss_kb": 22096,
+   "zoom_nav": {
+    "levels": 14,
+    "total_ms": 280.0,
+    "per_level_ms": 20.0,
+    "target": 3333
+   },
+   "startup_config_ms": 20.0
+  },
+  {
+   "size": 100000,
+   "reps": 5,
+   "import_s": 0.33,
+   "note_s": 0.02,
+   "note_plus_nap_s": 0.04,
+   "settle": {
+    "method": "prebuilt",
+    "naps": 0,
+    "s": 0.26787758397404104
+   },
+   "store_bytes": {
+    "total": 60798592,
+    "files": {
+     ".lock": 0,
+     "LOG.txt": 32000320,
+     "TREE/1024": 27936,
+     "TREE/128": 224928,
+     "TREE/16": 1800000,
+     "TREE/16384": 1728,
+     "TREE/2": 14400000,
+     "TREE/2048": 13824,
+     "TREE/256": 112320,
+     "TREE/32": 900000,
+     "TREE/32768": 864,
+     "TREE/4": 7200000,
+     "TREE/4096": 6912,
+     "TREE/512": 56160,
+     "TREE/64": 449856,
+     "TREE/65536": 288,
+     "TREE/8": 3600000,
+     "TREE/8192": 3456
+    }
+   },
+   "wake": {
+    "part1_ms": 20.0,
+    "part1_cold_ms": 20.0,
+    "peak_rss_kb": 18256,
+    "parts": 2,
+    "full_ms": 40.0
+   },
+   "recall_hit_ms": 160.0,
+   "recall_hit_out": "1 match.",
+   "recall_miss_ms": 150.0,
+   "recall_miss_rss_kb": 22928,
+   "zoom_nav": {
+    "levels": 17,
+    "total_ms": 340.0,
+    "per_level_ms": 20.0,
+    "target": 33333
+   },
+   "startup_config_ms": 20.0
+  },
+  {
+   "size": 1000000,
+   "reps": 5,
+   "import_s": 3.62,
+   "note_s": 0.02,
+   "note_plus_nap_s": 0.04,
+   "settle": {
+    "method": "prebuilt",
+    "naps": 0,
+    "s": 2.8331401250325143
+   },
+   "store_bytes": {
+    "total": 607998304,
+    "files": {
+     ".lock": 0,
+     "LOG.txt": 320000320,
+     "TREE/1024": 281088,
+     "TREE/128": 2249856,
+     "TREE/131072": 2016,
+     "TREE/16": 18000000,
+     "TREE/16384": 17568,
+     "TREE/2": 144000000,
+     "TREE/2048": 140544,
+     "TREE/256": 1124928,
+     "TREE/262144": 864,
+     "TREE/32": 9000000,
+     "TREE/32768": 8640,
+     "TREE/4": 72000000,
+     "TREE/4096": 70272,
+     "TREE/512": 562464,
+     "TREE/524288": 288,
+     "TREE/64": 4500000,
+     "TREE/65536": 4320,
+     "TREE/8": 36000000,
+     "TREE/8192": 35136
+    }
+   },
+   "wake": {
+    "part1_ms": 20.0,
+    "part1_cold_ms": 20.0,
+    "peak_rss_kb": 18256,
+    "parts": 2,
+    "full_ms": 40.0
+   },
+   "recall_hit_ms": 1330.0,
+   "recall_hit_out": "1 match.",
+   "recall_miss_ms": 1260.0,
+   "recall_miss_rss_kb": 24272,
+   "zoom_nav": {
+    "levels": 20,
+    "total_ms": 400.0,
+    "per_level_ms": 20.0,
+    "target": 333333
+   },
+   "startup_config_ms": 20.0
+  }
+ ]
+}
